@@ -33,11 +33,18 @@ namespace G1_24_Marzo_18_SebastianMurga
             eje2 no = new eje2();
             no.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            eje3 ddh = new eje3();
+            ddh.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            eje4 jjj = new eje4();
+            jjj.ShowDialog();
+        }
     }
 }
-        ////////////////////////int sasaas
-        ////////////////////////while(cont <x)
-        //////////////////////    int mult 
-        //////////////////////    multi num1*2;
-        //////////////////////    int++
 

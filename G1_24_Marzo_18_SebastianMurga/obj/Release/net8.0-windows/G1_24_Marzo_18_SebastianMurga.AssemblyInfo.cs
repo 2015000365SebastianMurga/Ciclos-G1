@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("G1_24_Marzo_18_SebastianMurga")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c77fe0af61a84ff4c439cb9ae3a282db5a26db0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("G1_24_Marzo_18_SebastianMurga")]

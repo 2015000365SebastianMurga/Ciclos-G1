@@ -37,6 +37,8 @@
             Total = new DataGridViewTextBoxColumn();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -92,7 +94,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(421, 127);
+            button2.Location = new Point(428, 24);
             button2.Name = "button2";
             button2.Size = new Size(75, 71);
             button2.TabIndex = 4;
@@ -102,7 +104,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(421, 217);
+            button3.Location = new Point(428, 114);
             button3.Name = "button3";
             button3.Size = new Size(75, 71);
             button3.TabIndex = 5;
@@ -110,11 +112,33 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // button4
+            // 
+            button4.Location = new Point(428, 281);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 71);
+            button4.TabIndex = 7;
+            button4.Text = "Multiplicacion Matrices";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(428, 191);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 71);
+            button5.TabIndex = 6;
+            button5.Text = "Suma Vectores";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(536, 352);
+            ClientSize = new Size(541, 371);
+            Controls.Add(button4);
+            Controls.Add(button5);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(dataGridView1);
@@ -139,5 +163,7 @@
         private DataGridViewTextBoxColumn Total;
         private Button button2;
         private Button button3;
+        private Button button4;
+        private Button button5;
     }
 }

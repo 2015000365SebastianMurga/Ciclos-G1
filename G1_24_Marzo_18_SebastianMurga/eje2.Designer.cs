@@ -94,9 +94,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(185, 371);
             label1.Name = "label1";
-            label1.Size = new Size(112, 15);
+            label1.Size = new Size(148, 15);
             label1.TabIndex = 9;
-            label1.Text = "Sebastian Murga VB";
+            label1.Text = "Sebastian Murga VB  While";
             // 
             // eje2
             // 
